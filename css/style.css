@@ -1,3 +1,10 @@
 .logo_size {
     width: 20vw;
 }
+.header-tel {
+    text-decoration: none;
+    color: black;
+}
+.carousel-caption {
+    top: 0;
+}

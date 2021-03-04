@@ -1,17 +1,12 @@
-.logo_size {
-    width: 20vw;
+.krym_roza_link {
+
 }
-.header-tel {
-    text-decoration: none;
-    color: black;
+.screen1_image {
+    position: relative;
 }
-.carousel-caption {
-    top: 0;
-}
-.about_company {
-    background-image: url("../img/about_bg_img.jpg");
-    background-repeat: no-repeat;
-    font-size: 1.5rem;
-    color: white;
-    padding: 5rem 3rem 5rem;
+.screen1_content {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    right: 5%;
 }

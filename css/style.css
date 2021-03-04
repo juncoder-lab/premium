@@ -10,3 +10,7 @@
     left: 60%;
     right: 5%;
 }
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}

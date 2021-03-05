@@ -1,0 +1,80 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .screen1_content {
+        position: absolute;
+        top: 8%;
+        /*left: 60%;*/
+        /*right: 5%;*/
+    }
+    .screen1_h {
+        /*font-family: Playfair Display, serif;*/
+        /*font-style: normal;*/
+        /*font-weight: 600;*/
+        font-size: 30px;
+        line-height: 32px;
+        /*background: linear-gradient(180deg, rgba(243, 224, 185, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DABB7A;*/
+        /*-webkit-background-clip: text;*/
+        /*-webkit-text-fill-color: transparent;*/
+        /*color: #DABB7A;*/
+    }
+    .screen1_p {
+        /*font-family: Montserrat, sans-serif;*/
+        /*font-style: normal;*/
+        /*font-weight: normal;*/
+        font-size: 14px;
+        line-height: 16px;
+        /*color: #FFFFFF;*/
+    }
+    .btn_online_zapis_light {
+        /*background-color: transparent;*/
+        /*border: 2px solid #DABB7A;*/
+        /*color: #DABB7A;*/
+        /*font-family: Montserrat, sans-serif;*/
+        /*font-style: normal;*/
+        /*font-weight: 600;*/
+        /*font-size: 16px;*/
+        /*line-height: 20px;*/
+        width: 260px;
+        /*height: 50px;*/
+    }
+    .screen1_image_mobile {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) {
+    .phone_cont {
+        display: none !important;
+    }
+    .addr_cont {
+        display: none !important;
+    }
+    .screen1_image {
+        display: none;
+    }
+    .screen1_image_mobile {
+        display: flex;
+    }
+    .screen1_content_mobile {
+        background-color: #2c3034;
+        padding-top: 5%;
+        padding-bottom: 10%;
+    }
+    .screen1_h {
+        /*font-family: Playfair Display, serif;*/
+        /*font-style: normal;*/
+        /*font-weight: 600;*/
+        font-size: 30px;
+        line-height: 40px;
+        /*background: linear-gradient(180deg, rgba(243, 224, 185, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DABB7A;*/
+        /*-webkit-background-clip: text;*/
+        /*-webkit-text-fill-color: transparent;*/
+        /*!* color: #DABB7A; *!*/
+    }
+    .screen1_p {
+        /*font-family: Montserrat, sans-serif;*/
+        /*font-style: normal;*/
+        /*font-weight: normal;*/
+        font-size: 16px;
+        /*line-height: 22px;*/
+        /*color: #FFFFFF;*/
+    }
+}

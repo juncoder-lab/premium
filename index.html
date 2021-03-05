@@ -10,18 +10,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <div class="container">
     <div class="row align-items-center justify-content-center">
-        <div class="col-2 d-flex justify-content-center align-items-center">
+        <div class="col-3 d-flex justify-content-center align-items-center phone_cont">
             <img style="width: 19px; height: 19px" src="img/phone.png" alt="phone">
             <div class="d-flex flex-column ms-2">
                 <a class="phone_link" href="tel:+7(3462)504-505">+7(3462)504-505</a>
                 <a class="phone_link" href="tel:+7(3462)504-506">+7(3462)504-506</a>
             </div>
         </div>
-        <div class="col-2 d-flex justify-content-center align-items-center">
+        <div class="col-md-6">
+            <a href="#"><img class="img-fluid" src="img/logo1.png" alt="logo"></a>
+        </div>
+        <div class="col-3 d-flex justify-content-center align-items-center addr_cont">
             <img style="width: 19px" src="img/location_outline.png" alt="location">
             <a class="phone_link ms-2" href="#">
                 <div>
@@ -30,14 +34,11 @@
                 </div>
             </a>
         </div>
-        <div class="col-4">
-            <a href="#"><img class="img-fluid" src="img/logo1.png" alt="logo"></a>
-        </div>
-        <div class="col-4 d-flex justify-content-end">
-            <button type="button" class="btn_online_zapis_dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Онлайн запись
-            </button>
-        </div>
+<!--        <div class="col-3 d-flex justify-content-end">-->
+<!--            <button type="button" class="btn_online_zapis_dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">-->
+<!--                Онлайн запись-->
+<!--            </button>-->
+<!--        </div>-->
     </div>
 
 </div>
@@ -155,10 +156,24 @@
         </div>
     </div>
 </div>
+<div class="container-fluid screen1_image_mobile">
+    <div class="row screen1_content_mobile justify-content-center">
+        <h1 class="screen1_h text-center">
+            Подчеркните свою природную уникальность
+        </h1>
+        <p class="screen1_p">
+            В центре эстетики Премиум каждый клиент сможет найти ту услугу, которая подойдет именно ему
+        </p>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn_online_zapis_light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Записаться в салон
+        </button>
+    </div>
+</div>
 <div class="container services">
     <h2 class="text-center">Услуги</h2>
     <div class="row">
-        <div class="col-2">
+        <div class="col-xl-2 col-md-4 col-sm-12">
             <div class="card">
                 <img src="img/screen2_image_1.png" class="card-img-top" alt="Медицинская косметология">
                 <div class="card-body">
@@ -166,7 +181,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-xl-2 col-md-4 col-sm-12">
             <div class="card">
                 <img src="img/screen2_image_2.png" class="card-img-top" alt="Ногтевой сервис">
                 <div class="card-body">
@@ -174,7 +189,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-xl-2 col-md-4 col-sm-12">
             <div class="card">
                 <img src="img/screen2_image_3.png" class="card-img-top" alt="Аппаратная косметология">
                 <div class="card-body">
@@ -182,7 +197,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-xl-2 col-md-4 col-sm-12">
             <div class="card">
                 <img src="img/screen2_image_4.png" class="card-img-top" alt="Солярий и косметика для загара ">
                 <div class="card-body">
@@ -190,7 +205,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-xl-2 col-md-4 col-sm-12">
             <div class="card">
                 <img src="img/screen2_image_5.png" class="card-img-top" alt="Парикмахерские услуги">
                 <div class="card-body">
@@ -198,7 +213,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-xl-2 col-md-4 col-sm-12">
             <div class="card">
                 <img src="img/screen2_image_6.png" class="card-img-top" alt="Коррекция бровей и ресниц">
                 <div class="card-body">
@@ -206,7 +221,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-xl-2 col-md-4 col-sm-12">
             <div class="card">
                 <img src="img/screen2_image_7.png" class="card-img-top" alt="Услуги депиляции">
                 <div class="card-body">
@@ -214,7 +229,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-xl-2 col-md-4 col-sm-12">
             <div class="card">
                 <img src="img/screen2_image_8.png" class="card-img-top" alt="Программы по коррекции фигуры">
                 <div class="card-body">
@@ -222,7 +237,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-xl-2 col-md-4 col-sm-12">
             <div class="card">
                 <img src="img/screen2_image_9.png" class="card-img-top" alt="Уход за кожей">
                 <div class="card-body">
@@ -230,7 +245,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-xl-2 col-md-4 col-sm-12">
             <div class="card">
                 <img src="img/screen2_image_10.png" class="card-img-top" alt="Услуга визажиста">
                 <div class="card-body">
@@ -238,7 +253,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-xl-2 col-md-4 col-sm-12">
             <div class="card">
                 <img src="img/screen2_image_11.png" class="card-img-top" alt="SPA-процедуры и другое">
                 <div class="card-body">
@@ -246,7 +261,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-xl-2 col-md-4 col-sm-12">
             <div class="card">
                 <img src="img/screen2_image_12.png" class="card-img-top" alt="Подробнее">
                 <div class="card-body">
@@ -256,58 +271,58 @@
         </div>
     </div>
 </div>
-<h2>
-    Центр эстетики "Премиум"
-</h2>
-<div class="container">
+
+<div class="container about">
+    <h2 class="text-center">
+        Центр эстетики "Премиум"
+    </h2>
     <div class="row">
-        <div class="col-4">
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card">
                 <img src="img/screen3_image_1.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <p class="card-text">Для тех, кто хочет не только быстро и эффективно похудеть, но и желает избавиться от целлюлита, приобрести изящные формы тела и подтянутую кожу. Каждое мгновение хочется быть уверенной в том, что вы прекрасны.</p>
+                    <p class="card-text"><span>1.</span> Для тех, кто хочет не только быстро и эффективно похудеть, но и желает избавиться от целлюлита, приобрести изящные формы тела и подтянутую кожу. Каждое мгновение хочется быть уверенной в том, что вы прекрасны.</p>
                 </div>
             </div>
-
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card">
                 <img src="img/screen3_image_2.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <p class="card-text">Идеальный мир женщины – тратить лишь нескольких минут на укладку волос утром, беззаботно веселиться на празднике, не переживая о макияже, быть уверенной в том, что внешний вид безупречен. Мы работаем над тем, чтобы так и было всегда.</p>
+                    <p class="card-text"><span>2.</span> Идеальный мир женщины – тратить лишь нескольких минут на укладку волос утром, беззаботно веселиться на празднике, не переживая о макияже, быть уверенной в том, что внешний вид безупречен. Мы работаем над тем, чтобы так и было всегда.</p>
                 </div>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card">
                 <img src="img/screen3_image_3.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <p class="card-text">Поход в центр эстетики не должен быть экспериментом с результатом, который невозможно предсказать. Вы всегда должны быть уверены в том, что выйдете из центра более ухоженной и прекрасной. Для достижения такого результата у нас работают профессиональные мастера высокого класса.</p>
+                    <p class="card-text"><span>3.</span> Поход в центр эстетики не должен быть экспериментом с результатом, который невозможно предсказать. Вы всегда должны быть уверены в том, что выйдете из центра более ухоженной и прекрасной. Для достижения такого результата у нас работают профессиональные мастера высокого класса.</p>
                 </div>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card">
                 <img src="img/screen3_image_4.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <p class="card-text">Наш центр эстетики  предоставляет возможность побаловать себя приятными процедурами по уходу, новой прической или маникюром рядом с домом. Вы сможете снять стресс и расслабиться, привести в порядок кожу, обновить образ в комфортной и доброжелательной атмосфере.</p>
+                    <p class="card-text"><span>4.</span> Наш центр эстетики  предоставляет возможность побаловать себя приятными процедурами по уходу, новой прической или маникюром рядом с домом. Вы сможете снять стресс и расслабиться, привести в порядок кожу, обновить образ в комфортной и доброжелательной атмосфере.</p>
                 </div>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card">
                 <img src="img/screen3_image_5.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <p class="card-text">Премиум - один из немногих центров эстетики, имеющих лицензию № 83-32-044953 на проведение всех медицинских процедур, которые проводят квалифицированные и дипломированные специалисты. Центр эстетики Премиум - все для клиента!
+                    <p class="card-text"><span>5.</span> Премиум - один из немногих центров эстетики, имеющих лицензию № 83-32-044953 на проведение всех медицинских процедур, которые проводят квалифицированные и дипломированные специалисты. Центр эстетики Премиум - все для клиента!
                     </p>
                 </div>
             </div>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="card">
                 <img src="img/screen3_image_6.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text"></p>
                 </div>
             </div>
         </div>

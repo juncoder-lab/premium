@@ -69,6 +69,9 @@
     left: 60%;
     right: 5%;
 }
+.screen1_image_mobile {
+    display: none;
+}
 .screen1_h {
     font-family: Playfair Display, serif;
     font-style: normal;
@@ -120,5 +123,39 @@
     line-height: 20px;
     color: #292929;
     text-align: center;
-    margin-top: -15%;
+    margin-top: -10%;
+    padding: 0;
+}
+.services .card {
+    border: none;
+}
+.services .card-body {
+    padding: 2px;
+}
+.about h2 {
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    color: #510000;
+}
+.about .card {
+    border: none;
+}
+.about span {
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    color: #510000;
+}
+.about p {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #292929;
 }

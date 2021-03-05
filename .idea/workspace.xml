@@ -51,7 +51,7 @@
       <workItem from="1614770704991" duration="514000" />
       <workItem from="1614771691284" duration="8020000" />
       <workItem from="1614833595543" duration="15783000" />
-      <workItem from="1614923362822" duration="2817000" />
+      <workItem from="1614923362822" duration="12155000" />
     </task>
     <servers />
   </component>
@@ -63,5 +63,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1614867346958" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1614933319767">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1614933319767" />
   </component>
 </project>

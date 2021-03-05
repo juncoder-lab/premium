@@ -1,6 +1,37 @@
 .krym_roza_link {
 
 }
+.phone_link {
+    color: #292929;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+}
+.phone_link:hover {
+    color: #DABB7A;
+}
+.btn_online_zapis_dark {
+    width: 210px;
+    height: 40px;
+    border-radius: 0;
+    background-color: #DABB7A;
+    border: none;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+.btn_online_zapis_dark:hover {
+    background-color: transparent;
+    color: #DABB7A;
+    border: 2px solid #DABB7A;
+}
+
+
 .screen1_image {
     position: relative;
 }
@@ -9,8 +40,4 @@
     top: 20%;
     left: 60%;
     right: 5%;
-}
-.swiper-container {
-    width: 600px;
-    height: 300px;
 }

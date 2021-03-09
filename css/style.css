@@ -161,6 +161,7 @@
 }
 .promotions {
     background-color: #510000;
+    padding: 100px 0;
 }
 .promotions h2 {
     font-family: Playfair Display, serif;
@@ -171,6 +172,7 @@
     background: linear-gradient(180deg, rgba(243, 224, 185, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DABB7A;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
 }
 .promotions h5 {
     font-family: Playfair Display, serif;
@@ -210,4 +212,14 @@
     background-color: #DABB7A;;
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
+}
+.brands img {
+    margin-top: 20%;
+}
+.footer_bg {
+    background-color: #292929;
+    padding: 100px 0 150px;
+}
+.footer_bg button {
+    width: 100%;
 }

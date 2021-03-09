@@ -159,3 +159,55 @@
     line-height: 20px;
     color: #292929;
 }
+.promotions {
+    background-color: #510000;
+}
+.promotions h2 {
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    background: linear-gradient(180deg, rgba(243, 224, 185, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DABB7A;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.promotions h5 {
+    font-family: Playfair Display, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    background: linear-gradient(180deg, rgba(243, 224, 185, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #DABB7A;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.promotions p {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.promotions .card {
+    background-color: transparent;
+}
+.promotions a {
+    background-color: transparent;
+    border: 2px solid #DABB7A;
+    color: #DABB7A;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    height: 35px;
+    border-radius: 0;
+}
+.promotions a:hover {
+    background-color: #DABB7A;;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
